@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>용사계획표 설치</title><meta name="theme-color" content="#f6e7bb"><link rel="icon" href="icon-192.png">
+<style>
+:root{--bg:#eef1dc;--card:#fdf6e3;--ink:#3a2814;--muted:#6b5a44;--line:#6b4a2a;--gold:#c8901a;--green:#4a8a3a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+main{max-width:560px;margin:0 auto;padding:24px 16px 48px}
+header{display:flex;gap:14px;align-items:center;margin-bottom:18px}header img{width:64px;height:64px;border-radius:14px;border:3px solid var(--line)}
+h1{font-size:24px;margin:0}header p{margin:2px 0 0;color:var(--muted)}
+.card{background:var(--card);border:3px solid var(--line);border-radius:8px;padding:18px;margin:14px 0;box-shadow:0 4px 0 #3a281455}
+.card h2{margin:0 0 4px;font-size:19px}.tag{display:inline-block;font-size:12px;font-weight:700;background:var(--green);color:#fff;border-radius:99px;padding:1px 9px;margin-left:6px;vertical-align:2px}
+.btn{display:flex;align-items:center;justify-content:center;min-height:50px;width:100%;margin:12px 0 4px;border-radius:8px;border:3px solid var(--line);background:#ffd75e;color:var(--ink);font-weight:800;font-size:17px;text-decoration:none}
+.btn.alt{background:#fff}
+ol{margin:8px 0 0;padding-left:22px}li{margin:4px 0}.muted{color:var(--muted);font-size:14px}
+details{margin:8px 0;border-top:2px dashed #c8b89a;padding-top:8px}summary{cursor:pointer;font-weight:700;min-height:32px}
+code{background:#fff;border:1px solid #c8b89a;border-radius:4px;padding:0 4px}
+</style></head><body><main>
+<header><img src="icon-192.png" alt=""><div><h1>용사의 주간 계획표</h1><p>할 일을 해치우면 용사가 강해지는 주간 계획표</p></div></header>
+
+<section class="card">
+  <h2>방법 1 · 홈 화면에 추가 <span class="tag">추천 · 설치 파일 없음</span></h2>
+  <p class="muted" style="margin:0">갤럭시·아이폰·PC 모두 돼요. 업데이트도 자동이에요.</p>
+  <a class="btn" href="./">게임 열기</a>
+  <details open><summary>갤럭시 (크롬)</summary><ol><li>위 <b>게임 열기</b>를 눌러요.</li><li>아래에 <b>"홈 화면에 앱으로 설치할까요?"</b>가 뜨면 <b>설치</b>. 안 뜨면 오른쪽 위 <b>⋮ → 홈 화면에 추가 → 설치</b>.</li></ol></details>
+  <details><summary>갤럭시 (삼성 인터넷)</summary><ol><li>게임을 연 뒤 아래 <b>≡ → 현재 페이지 추가 → 홈 화면</b>.</li></ol></details>
+  <details><summary>아이폰 (사파리)</summary><ol><li>사파리로 게임을 열어요. (카톡 안 브라우저면 오른쪽 아래 <b>⋯ → 사파리로 열기</b>)</li><li>아래 <b>공유 버튼(□↑) → 홈 화면에 추가</b>.</li></ol></details>
+  <details><summary>카톡에서 링크를 눌렀다면</summary><p class="muted" style="margin:4px 0 0">카톡 안 브라우저에서는 설치가 안 돼요. 오른쪽 위(아이폰은 아래) <b>⋮ / ⋯ → 다른 브라우저로 열기</b>로 크롬·사파리에서 열어 주세요.</p></details>
+</section>
+
+<section class="card" id="apk">
+  <h2>방법 2 · 안드로이드 앱(APK)</h2>
+  <p class="muted" style="margin:0">'용사 RPG' 바로가기 아이콘이 따로 생기고, 인터넷이 없어도 켜져요.</p>
+  <a class="btn alt" href="yongsa.apk" download>APK 내려받기</a>
+  <ol>
+    <li><b>크롬</b>에서 위 버튼을 눌러 받아요. (카톡·클로드 앱 안에서 받으면 안 열릴 수 있어요)</li>
+    <li>다운로드 알림이나 <b>내 파일 → 다운로드</b>에서 <code>yongsa.apk</code>를 눌러요.</li>
+    <li><b>"이 출처의 앱 설치를 허용하지 않음"</b>이 뜨면 <b>설정 → 이 출처 허용</b>을 켜고 뒤로 가기.</li>
+    <li><b>Play 프로텍트</b> 창이 뜨면 <b>세부정보 더보기 → 무시하고 설치</b>(또는 <b>그래도 설치</b>). 플레이스토어에 올리지 않은 앱이라 뜨는 안내예요.</li>
+  </ol>
+  <details><summary>"앱이 설치되지 않았습니다"가 떠요</summary><ul class="muted" style="padding-left:18px;margin:4px 0 0">
+    <li>휴대폰 저장 공간이 부족한지 확인해요.</li>
+    <li>예전에 <b>다른 곳에서 받은</b> 같은 이름의 앱이 있으면 지우고 다시 설치해요. (지우기 전에 앱 안 <b>설정 → 백업 코드 복사</b>로 진행 상황을 챙겨 두세요. 카카오 로그인을 썼다면 서버에 저장돼 있어요.)</li>
+    <li>회사·학교 관리 폰은 설치가 막혀 있을 수 있어요. 그럴 땐 <b>방법 1</b>을 써 주세요.</li></ul></details>
+</section>
+
+<section class="card">
+  <h2>카카오 로그인</h2>
+  <p class="muted" style="margin:0">처음 열면 <b>카카오로 시작하기</b>가 나와요. 로그인하면 폰·PC 어디서나 이어서 하고, 친구와 길드·레이드를 함께해요. 로그인 없이 혼자 해도 돼요.</p>
+</section>
+</main></body></html>

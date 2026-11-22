@@ -1,0 +1,9 @@
+{
+  "name": "용사의 주간 계획표", "short_name": "용사계획표", "lang": "ko",
+  "start_url": "./", "scope": "./", "display": "standalone", "orientation": "any",
+  "background_color": "#eef1dc", "theme_color": "#f6e7bb",
+  "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+            {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}],
+  "shortcuts": [{"name": "바로 게임 시작", "short_name": "용사 RPG", "url": "./#play",
+                 "icons": [{"src": "icon-play-192.png", "sizes": "192x192", "type": "image/png"}]}]
+}
